@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.honeywell.commsdemo.CreditsActivity"/>
+      <point      
+        x = "2400"      
+        y = "480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.honeywell.commsdemo.CommsDemoActivity"/>
+      <point      
+        x = "480"      
+        y = "160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        xmlResourceName = "menu_credits"/>
+      <point      
+        x = "3680"      
+        y = "480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        xmlResourceName = "comms_demo"/>
+      <point      
+        x = "1600"      
+        y = "320"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
